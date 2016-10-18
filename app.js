@@ -1,14 +1,14 @@
 var hungry = "no";
 //var choice;
 // Prompt the user if hungry
-while (hungry === "no") {
-    hungry = prompt("Are you hungry yet?");
-    hungry.toLowerCase();
+while (hungry != "yes") {
+    hungry = prompt("Are you hungry yet? Enter Yes or No");
+     hungry= hungry.toLowerCase();
     //console.log(food);
 }
 
 // Decide what to eat
-var choice = prompt("What are you in the mood for?" +
+var choice = prompt("What are you in the mood for?\n" +
                     "Mexican, Chinese, or Idunno");
 console.log(choice.toLowerCase());
 
